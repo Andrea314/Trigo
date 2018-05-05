@@ -118,7 +118,7 @@ class triangle:
 			print(dont)
 		else:
 			if alpha+beta+gamma!=pi:
-				print(no)
+				print('this triangle may not exist, check if alpha+beta+gamma is 180')
 			perimeter=a+b+c
 			area=0.5*a*b*sin(gamma)
 			alpha=degrees(alpha)
